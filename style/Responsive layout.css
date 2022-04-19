@@ -1,0 +1,220 @@
+   /*for mobile*/
+@media (max-width: 575px) {
+    
+    /*common between pages*/
+
+    a {
+        font-size: 100%;
+    }
+    .logo {
+        width: 40%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .bunchline {
+        font-size: 200%;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    
+    /*home*/
+
+
+    .parent {
+        background-size: 35% 35%;
+        background-position: 100% -20%, 0% 27%;
+    }
+    #llogo {
+        width: 35%;
+    }
+    .links {
+        width: 50%;
+    }
+    #login {
+        width: 50%;
+    }
+    #signup {
+        width: 50%;
+    }
+    .con2 {
+        flex-direction: column-reverse;
+    }
+    .con2img {
+        width: 100%;
+        display: grid;
+        place-items: center;
+        margin: 5% 0% 15% 0%;
+    }
+    #con2img {
+        width: 70%;
+    }
+    .innercon {
+        width: 90%;
+        text-align: center;
+    }
+    .line2 {
+        margin-bottom: 15%;
+    }
+    #ourmenu {
+        width: 35%;
+        padding: 4% 2% 4% 2%;
+    }
+    .con3 {
+        background: #D7B27F;
+    }
+    .innercon3 {
+        flex-direction: column;
+    }
+    .con3img {
+        width: 100%;
+        display: grid;
+        place-items: end;
+        margin-bottom: 10%;
+    }
+    #con3img {
+        width: 90%;
+    }
+    .offer {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    #theoffer {
+        font-size: 100%;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    .caption {
+        font-size: 200%;
+        margin-bottom: 10%;
+    }
+    .items {
+        flex-direction: column;
+    }
+    .con54img {
+        width: 100%;
+        height: fit-content;
+    }
+    #buynow {
+        font-size: 100%;
+    }
+
+
+    /*signup&login*/
+    
+    .suliparent {
+        background: transparent url('../img/background/login-bg-mobile@2x.png') 0% 0% no-repeat padding-box;
+    }
+    .sulicon2 {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .sulilogo {
+        width: 35%;
+    }
+    .wolly {
+        width: 40%;
+        height: 40%;
+        align-self: center;
+        margin: 10%;
+    }
+    .sulicon1 {
+        display: grid;
+        place-items: center;
+        margin-bottom: 10%;
+    }
+    .form {
+        width: 80%;
+        padding: 5%;
+        height: fit-content;
+        align-self: center;
+    }
+
+    /*menu & about*/
+
+    .hc1 {
+        width: 80%;
+    }
+    .Link {
+        font-size: medium;
+    }
+    .carticon {
+        width: 10%;
+    }
+    .acon {
+        width: 90%;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .aconimg {
+        width: 100%;
+    }
+    .ainnercon {
+        width: 100%;
+        text-align: center;
+        font-size: 150%;
+    }
+    .mcon {
+        margin: 5% 0% 7% 0%;
+    }
+    .catig {
+        font-size: 200%;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .mitems {
+        display: grid;
+        gap: 2%;
+        place-items: center;
+    }
+    .item  {
+        width: 90%;
+        margin: 5% 0% 5% 0%;
+    }
+    .sm {
+        align-self: center;
+        margin: 10%;
+    }
+    .seemore {
+        font-size: 150%;
+    }
+
+
+    /*footer*/
+
+    .foinner2 {
+        flex-direction: column;
+    }
+    .innercon1 {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Footerimg  {
+        width: 80%;
+        margin: 10%;
+    }
+    .footerimg {
+        width: 90%;
+    }
+    .innercon2 {
+        flex-direction: column;
+        margin: 5% 0% 5% 0%;
+    }
+    .sub {
+        width: 100%;
+        align-self: flex-start;
+    }
+    .subscribeline {
+        text-align: center;
+    }
+    .copyrights {
+        font-size: 75%;
+        letter-spacing: 2.27px;
+    }
+}
+
+
+  /*some other adjustments*/
+@media  (min-width: 1250px ){.con3 { margin: 10% 10% 10% 0%; background-size: contain;}}
+@media (min-width: 575px){.innercon2{align-self: flex-end;}}

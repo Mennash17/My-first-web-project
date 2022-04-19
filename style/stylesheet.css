@@ -1,0 +1,601 @@
+    /*common between pages*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.html {
+    width: 100%;
+    height: 100%;
+}
+a {
+    text-decoration: none;
+    font-size: 125%;
+    color: #000000;
+}
+button {
+    border: none;
+}
+.header {
+    width: 90%;
+    padding: 0%;
+    margin: 3% 0% 5% 0%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width: 30%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+
+    /*Home Page*/
+    
+.parent {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    background: #FFFFFF;
+    background-image: url(../img/background/background\ circles.svg), url(../img/background/background\ circles\ 2.svg);
+    background-repeat: no-repeat , no-repeat;
+    background-position: 100% 7%, 0% 60%;
+    display: grid;
+    place-items: center;
+}
+.hcontainer {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#llogo {
+    width: 15%;
+}
+.links {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#login {
+    width: 50%;
+    padding: 5%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-right: 5%;
+}
+#signup {
+    width: 50%;
+    padding: 5%;
+    background: #E5C496;
+    box-shadow: 0px 6px 11px #00000029;
+    border-radius: 10px;
+}
+.con2 {
+    width: 90%;
+    margin: 3% 0% 3% 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.innercon {
+    width: 50%;
+}  
+.bunchline {
+    text-align: left;
+    font-size: 300%;
+    color: #D7B27F;
+    margin-bottom: 3%;
+}
+.line2 {
+    font-size: 150%;
+    color: #606060;
+    margin-bottom: 7%;
+}
+.con2img {
+    width: 40%;
+}
+#con2img {
+    width: 100%;
+}
+#ourmenu {
+    width: 25%;
+    height: fit-content;
+    padding: 2% 1% 2% 1%;
+    background: #E5C496;
+    box-shadow: 0px 6px 11px #00000029;
+    border-radius: 10px;
+}
+.con3 {
+    width: 100%;
+    height: fit-content;
+    padding: 0%;
+    margin: 10% 0% 10% 0%;
+    background-image: url(../img/background/sec2-bg.svg); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.con3img  {
+    width: 50%;
+}
+#con3img {
+    width: 90%;
+}
+.innercon3 {
+    margin: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.offer {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#weekendoffer {
+    width: 100%;
+}
+#theoffer {
+    text-align: center;
+    font-size: 150%;
+    letter-spacing: 3px;
+    line-height: 150%;
+    color: #FFFFFF;
+    align-self: center;
+}
+#buynow {
+    width: 75%;
+    font-size: 250%;
+    height: fit-content;
+    padding: 4%;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 25px #00000029;
+    border-radius: 13px;
+    align-self: center;
+}
+.con54 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.caption {
+    text-align: center;
+    color: #804E34;
+    margin-bottom: 3%;
+    font-size: 350%
+}
+.items {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.Conimg54 {
+    flex-direction: column;
+    border-radius: 13px;
+    position: absolute;
+}
+.Con5img {
+    width: calc(90/3);
+}
+.con54img {
+    z-index: 1;
+    width: (90/3);
+    height: 300px;
+    border-radius: 13px;
+}
+.itemcaption {
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    font-size: 150%;
+    color: #FFFFFF;
+    background: #6565654F;
+    border-radius: 0px 0px 13px 13px;
+    position: relative;
+    top: -80px;
+}
+
+
+
+    /*Sign up & Log in*/
+
+
+.suliparent {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-image: url(../img/background/login-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}
+.countainer2 {
+    width: 100%;
+    margin: 5%;
+    display: grid;
+    place-items: center;
+}
+.sulilogo {
+    width: 15%;
+}
+.Ll {
+    letter-spacing: 2.33px;
+}
+.sulicon1 {
+    width: 90%;
+}
+.sulicon2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly; 
+}
+.wolly {
+    width: 40%;
+    align-self: flex-end;
+}
+.form {
+    width: 35%;
+    padding: 1%;
+    height: fit-content;
+    background: #FFFFFF;
+    border: none;
+    box-shadow: 0px 3px 15px #00000029;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.facebook {
+    width: 85%;
+    height: fit-content;
+    background: #0F4B98;
+    border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5%;
+    padding: 3%;
+}
+.ficon {
+    width: 10%;
+    vertical-align: middle;
+}
+.flink {
+    color: #FFFFFF;
+}
+.google {
+    width: 85%;
+    height: fit-content;
+    border: 1px solid #707070;
+    border-radius: 50px;
+    color: #000000;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5%;
+    padding: 3%;
+}
+.gicon {
+    width: 10%;
+    vertical-align: middle;
+}
+.or {
+    width: 85%;
+    margin: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.orhr {
+    width: 47%;
+}
+.hrr {
+    width: 85%;
+}
+.slbotton {
+    width: 85%;
+    height: fit-content;
+    background: #D7B27F;
+    border-radius: 50px;
+    margin: 5%;
+    padding: 3%;
+}
+.forminput {
+    width: 80%;
+    border: none;
+    padding: 3%;
+}
+.forminput::placeholder {
+    letter-spacing: 1.26px;
+    color: #000000;
+}
+.orsl {
+    width: 100%;
+    color: #000000;
+    font-size: large;
+    margin-bottom: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.sllink {
+    color: #CB6A61;
+    font-size: 100%;
+}
+
+
+
+   /*menu&aboutus*/
+
+.parent3 {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+.countainer3 {
+    width: 90%;
+}
+.hc1 {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+    align-self: flex-start;
+}
+.Link {
+    color: #000000;
+}
+.Link:hover {
+    color:#E5C496;
+}
+.Link:visited {
+    color: #E5C496;
+}
+.carticon {
+    width: 5%;
+    vertical-align: middle;
+}
+
+
+
+   /*menu only*/
+
+
+.Mcon {
+    margin: 2% 0% 2% 0%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.mcon {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+.catig {
+    width: 100%;
+    font-size: 250%;
+    letter-spacing: 0.6px;
+    color: #000000;
+    margin: 3% 0% 3% 0%;
+}
+.mitems {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.item {
+    width: 30%;
+    height: fit-content;
+    border-radius: 13px;
+}
+.seemore {
+    font-size: 200%;
+    letter-spacing: 3.4px;
+    color: #804E34;
+    margin-top: 1%;
+}
+.sm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+
+
+/*aboutus only*/
+
+.acon {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.ainnercon {
+    width: 55%;
+    margin: 3% 5% 5% 5%;
+    font-size: 250%;
+    line-height: 150%;
+}
+.aline2 {
+    color: #D7B27F;;
+}
+.aconimg {
+    width: 45%;
+}
+#aconimg {
+    width: 100%;
+}
+
+
+    /*Footer*/
+
+.footer {
+    width: 100%;
+    height: fit-content;
+    background: rgb(193, 148, 104 , 0.47);
+    margin-bottom: 0%;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.foinner1 {
+    width: 90%;
+    margin: 5% 0% 5% 0%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.foinner2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Footerimg  {
+    width: 40%;
+}
+.footerimg  {
+    width: 80%;
+    align-self: flex-start;
+}
+.innercon1 {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.innercon2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.sub {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: flex-end;
+
+}
+.subscribe {
+    width: 100%;
+    height: fit-content;
+    background: #F2F2F2 0% 0%;
+    border-radius: 13px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.subscribeline {
+    text-align: left;
+    font-size: 150%;
+    letter-spacing: 0.22px;
+    color: #000000;
+    margin-bottom: 5%;
+}
+.submit {
+    padding: 4%;
+    background: #804E34;
+    font-size: 100%;
+    color: #FFFFFF;
+    border-radius: 0px 13px 13px 0px;
+    border: none;
+}
+.email {
+    border: none;
+    text-align: center;
+    font-size: 100%;
+    background: #F2F2F2;
+    border-radius: 13px;
+    width: 100%;
+}
+.email::placeholder {
+    color: #000000;
+    opacity: 0.41;
+}
+.innercon2 {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    place-items: center;
+}
+.fline {
+    font-size: 150%;
+    color: #F7F9F9;
+    text-align: center;
+}
+.pfc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    place-items: center;
+    margin: 5%;
+}
+.cinfo {
+    font-size: 100%;
+    color: #804E34;
+    align-self: center;
+    margin: 5%;
+}
+.pf {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 15px;
+    margin-top: 10%;
+}
+.hrrr {
+    width: 100%;
+    border: 0.5px solid #804E34;
+    align-self: center;
+}
+.copyrights {
+    align-self: center;
+    font-size: 100%;
+    letter-spacing: 3.27px;
+    color: #804E34;
+}
