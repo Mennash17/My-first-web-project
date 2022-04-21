@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Rendeer all elements normaly-->
+    <link rel="stylesheet" href="style/normaliz.css">
+    <!--Main stylesheet-->
+    <link rel="stylesheet" href="style/stylesheet.css">
+    <!--Responsive Layout Properties-->
+    <link rel="stylesheet" href="style/Responsive layout.css">
+    <title>Home Page</title>
+</head>
+<body>
+    <div class="parent">
+        <div class="header">
+            <img class="logo" id="llogo" alt="logo sukker" src="img/icons/sukkar.svg" >
+            <div class="links">
+                <button id="login" type="button"><a href="structure/log in.html">Log in</a></button>
+                <button id="signup" type="button"><a href="structure/sign up.html">Sign up</a></button>
+            </div>
+        </div>
+        <div class="con2">
+            <div class="innercon">
+                <div class="bunchline">
+                    Enjoy with best taste<br>for desserts
+                </div>
+                <div class="line2">Sukkar is a pastry shop where delicious candy and desserts.Choose
+                     your favorite dessert from Sukkar's menu.
+                </div>
+                <div id="menubutton"><button id="ourmenu" type="button"><a href="structure/our menu.html">Our Menu</a></button></div>
+            </div>
+            <div class="con2img"><img id="con2img" alt="Birthday cake" src="img/banner/woolly-fatal@2x.png"></div>
+        </div>
+        <div class="con3">
+            <div class="innercon3">
+                <div class="con3img"><img id="con3img" alt="Cupcake and Donats" src="img/banner/donats@2x.png"></div>
+                <div class="offer">
+                    <img id="weekendoffer"  alt="weekendoffer" src="img/icons/Weekend Offer.svg">
+                    <p id="theoffer">2 Donates with Ice cream <br> only with 60$ instead of 80$</p>
+                    <button id="buynow" type="button"><a id="buyit" href="#">Buy it Now</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="hcontainer">
+            <div class="con54">
+                <div class="caption">Trend Items</div>
+                <div class="items">
+                    <div class="Con54img"> 
+                        <img class="con54img" alt="Cake" src="img/products/david-holifield-kPxsqUGneXQ-unsplash@2x.png">
+                        <div class="itemcaption"><p>Choco Cake</p><p>80$</p></div>
+                    </div>
+                    <div class="Con54img">
+                        <img class="con54img" alt="Cupcake" src="img/products/deva-williamson-S2jw81lfrG0-unsplash@2x.png">
+                        <div class="itemcaption"><p>Cupcake</p><p>19$</p></div>
+                    </div>
+                    <div class="Con54img">
+                        <img class="con54img" alt="Donats" src="img/products/kobby-mendez-q54Oxq44MZs-unsplash@2x.png">
+                        <div class="itemcaption"><p>Donates</p><p>10$</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="con54">
+                <div class="caption">Family Sukkar</div>
+                <div class="items">
+                    <div class="Con54img" class="Con5img">
+                        <img class="con54img" alt="Cake" src="img/products/lottie-griffiths-tTJ5p16R-b4-unsplash (1)@2x.png">
+                        <div class="itemcaption"><p>Cupcake</p><p>40$</p></div>
+                    </div>
+                    <div class="Con54img" class="Con5img">
+                        <img class="con54img" alt="Cupcake" src="img/products/diana-polekhina-Sdek8sp0vGE-unsplash@2x.png">
+                        <div class="itemcaption"><p>Cookies</p><p>65$</p></div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+        <div class="footer">
+            <div class="foinner1">
+                <div class="foinner2">
+                    <div class="Footerimg"><img class="footerimg" alt="Superhero" src="img/banner/woolly-superman@2x.png" ></div>
+                    <div class="innercon1">
+                        <div class="sub">
+                            <div class="subscribeline">Subscribe now to get latest news from Sukkar!</div>
+                            <div class="subscribe">
+                                <input class="email" type="email" placeholder="yourname@gmail.com">
+                                <input class="submit" type="submit" value="Subscribe">
+                            </div>
+                        </div>
+                        <div class="innercon2">
+                            <div class="pfc">
+                                <div class="fline">Payment methods</div>
+                                <div class="pf">
+                                    <img class="pfimg" src="img/icons/surface1.svg">
+                                    <img class="pfimg" src="img/icons/payment-method.svg">
+                                    <img class="pfimg" src="img/icons/visa.svg">
+                                </div>
+                            </div>
+                            <div class="pfc">
+                                <div class="fline">Follow us</div>
+                                <div class="pf">
+                                    <img class="pfimg" src="img/icons/facebook-logo.svg">
+                                    <img class="pfimg" src="img/icons/instagram.svg">
+                                    <img class="pfimg" src="img/icons/twitter.svg">
+                                </div>
+                            </div>
+                            <div class="pfc">
+                                <div class="fline">Contact us</div>
+                                <div class="cinfo">suukar@gmail.com</div>
+                                <div class="cinfo">+0201112223344</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="hrrr">
+                <p class="copyrights">All rights preserved for sukkar.com 2021</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
