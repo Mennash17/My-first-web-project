@@ -1,1 +1,1 @@
-# My-first-web-project.githup.io
+# This is simple design for Ecommerce web application , developed using HTML and CSS
